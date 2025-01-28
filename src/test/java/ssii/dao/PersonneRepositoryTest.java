@@ -15,7 +15,6 @@ public class PersonneRepositoryTest {
     @Autowired
     private PersonneRepository clientDao;
 
-
     @Test
     void daoExiste() {
         assertNotNull(clientDao);
